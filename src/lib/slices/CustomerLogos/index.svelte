@@ -68,6 +68,7 @@
 							<PrismicImage
 								field={item.image}
 								class="{itemClass}"
+								loading="lazy"
 							/>
 						</PrismicLink>
 					</li>
