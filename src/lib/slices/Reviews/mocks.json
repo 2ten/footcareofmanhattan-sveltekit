@@ -1,0 +1,77 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"eyebrowHeadline": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Nisi incididunt irure sunt aliqua est officia do."
+						}
+					}
+				]
+			},
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Laboris duis et non cillum aliqua cupidatat. Voluptate ad et incididunt voluptate aliqua. Deserunt duis eiusmod et ea Lorem et laborum dolor consectetur sint enim irure dolore anim."
+						}
+					}
+				]
+			},
+			"buttonLink": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev"
+				}
+			},
+			"buttonText": {
+				"__TYPE__": "FieldContent",
+				"value": "usually",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"review",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Officia eu enim culpa sunt veniam adipisicing deserunt ullamco. Consequat fugiat laboris mollit cupidatat voluptate duis pariatur minim esse."
+									}
+								}
+							]
+						}
+					],
+					[
+						"author",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Aliqua enim non qui eu laboris incididunt nostrud elit ut laborum officia. Ex in quis mollit excepteur. Deserunt voluptate tempor sint."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,36 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"map": {
+				"__TYPE__": "FieldContent",
+				"value": "teach",
+				"type": "Text"
+			},
+			"eyebrowHeadline": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Do sit et aliquip fugiat. Elit exercitation ipsum aliquip dolor enim culpa minim Lorem velit adipisicing velit dolor commodo ipsum."
+						}
+					}
+				]
+			},
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Deserunt enim commodo aute incididunt ea velit irure id ut consectetur consequat cillum culpa esse. Cupidatat non et mollit amet aute occaecat laborum sit consectetur fugiat ad dolore aliquip aute. Elit Lorem quis excepteur commodo magna laborum adipisicing reprehenderit in."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

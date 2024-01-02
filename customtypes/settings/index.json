@@ -1,0 +1,160 @@
+{
+	"id": "settings",
+	"label": "Settings",
+	"format": "custom",
+	"repeatable": false,
+	"status": true,
+	"json": {
+		"Main": {
+			"site_title": {
+				"type": "Text",
+				"config": {
+					"label": "Site Title",
+					"placeholder": ""
+				}
+			},
+			"site_description": {
+				"type": "Text",
+				"config": {
+					"label": "Site Description",
+					"placeholder": ""
+				}
+			},
+			"site_url": {
+				"type": "Text",
+				"config": {
+					"label": "Site Url",
+					"placeholder": ""
+				}
+			},
+			"company_name": {
+				"type": "Text",
+				"config": {
+					"label": "Company Name",
+					"placeholder": ""
+				}
+			},
+			"company_email": {
+				"type": "Text",
+				"config": {
+					"label": "Company Email",
+					"placeholder": ""
+				}
+			},
+			"company_phone": {
+				"type": "Text",
+				"config": {
+					"label": "Company Phone",
+					"placeholder": ""
+				}
+			},
+			"company_address": {
+				"type": "StructuredText",
+				"config": {
+					"label": "Company Address",
+					"placeholder": "",
+					"allowTargetBlank": true,
+					"single": "paragraph,strong,em,hyperlink,rtl"
+				}
+			},
+			"location": {
+				"type": "GeoPoint",
+				"config": {
+					"label": "Location"
+				}
+			},
+			"hours": {
+				"type": "Group",
+				"config": {
+					"label": "Hours",
+					"fields": {
+						"day": {
+							"type": "Text",
+							"config": {
+								"label": "Day",
+								"placeholder": ""
+							}
+						},
+						"hours": {
+							"type": "Text",
+							"config": {
+								"label": "Hours",
+								"placeholder": ""
+							}
+						}
+					}
+				}
+			}
+		},
+		"Brand": {
+			"logo": {
+				"type": "Image",
+				"config": {
+					"label": "Logo Image",
+					"constraint": {},
+					"thumbnails": []
+				}
+			},
+			"og_image": {
+				"type": "Image",
+				"config": {
+					"label": "Open Graph Image",
+					"constraint": {},
+					"thumbnails": []
+				}
+			},
+			"social_media_links": {
+				"type": "Group",
+				"config": {
+					"label": "Social Media Links",
+					"fields": {
+						"name": {
+							"type": "Text",
+							"config": {
+								"label": "Name",
+								"placeholder": ""
+							}
+						},
+						"link": {
+							"type": "Text",
+							"config": {
+								"label": "Link",
+								"placeholder": ""
+							}
+						}
+					}
+				}
+			}
+		},
+		"Integrations": {
+			"ga_id": {
+				"type": "Text",
+				"config": {
+					"label": "Google Analytics Id",
+					"placeholder": ""
+				}
+			},
+			"fb_pixel": {
+				"type": "Text",
+				"config": {
+					"label": "Facebook Pixel",
+					"placeholder": ""
+				}
+			},
+			"head_scripts": {
+				"type": "Text",
+				"config": {
+					"label": "Head Scripts",
+					"placeholder": ""
+				}
+			},
+			"footer_scripts": {
+				"type": "Text",
+				"config": {
+					"label": "Footer Scripts",
+					"placeholder": ""
+				}
+			}
+		}
+	}
+}
